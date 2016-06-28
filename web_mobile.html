@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Web Mobile</title>
+<style>
+body{   margin: 0px;
+	    padding: 0px;
+		line-height: 50%;
+		background-image:url(../vacation.jpg);
+		background-size:1400px auto;}
+		
+.logo {min-width:300px;
+       margin-left:auto;
+	   margin-right:auto;
+       margin-top:10px;
+       width:75%;
+       height:10%;
+	   border-radius:10px;
+	   border-style:solid; 
+	   border-color:#E54A4A;
+      }	
+	  
+#logo{
+	    margin-left:auto;
+	   margin-right:auto;
+	   margin-bottom:40px;
+	   display: block;
+	   text-align: center;}    
+	  	
+
+.clear{clear:both;}
+
+.image{border-style:solid;
+	   border-color:black;
+	   border-width: 2px;
+	   /* border: 2px solid black; */
+	   margin-top:0px;
+	   margin-bottom:5px;
+	   margin-right:4px;
+	   padding:0px;
+	   float:left}
+	   
+#container{width:auto;
+		   max-width:960px;
+		   height:1000px;
+		   text-align: left;
+           margin-left: auto;
+           margin-right: auto;
+		   padding:30px;
+		   background-color: rgba(255,255,255, 0.5);
+		   }
+		   
+#banner {
+	width: 100px;
+	height: 600px;
+	background-color:#6496EF;
+	position: fixed;
+	right: 0px;
+	top: 200px;
+	z-index: 2;
+}
+		   	
+		   
+@media screen and (max-width: 959px)
+{
+   
+	 #container{width:auto;
+		   max-width:600px;
+		   text-align: left;
+           margin-left: auto;
+           margin-right: auto;
+		   padding:20px;
+		   }                
+    body            {background-color: lightblue;}
+	
+}
+
+@media screen and (max-width: 479px)
+{
+	                 
+    body            {background-color: lightgreen;}
+		 #container{width:auto;
+		   max-width:460px;
+		   text-align: left;
+           margin-left: auto;
+           margin-right: auto;
+		   padding:0px;
+		   } 
+#banner {
+	width: 470px;
+	text-align: left;
+	height:150px;
+	margin-top:10px;
+	margin-bottom:5px;
+	background-color:#B8B8B8;
+	position:static;
+	z-index:1;
+	direction:rtl;
+}		
+
+.logo {min-width:400px;
+       margin-left:auto;
+	   margin-right:auto;
+       margin-top:0px;
+       width:96%;
+       height:10%;
+	   border-radius:10px;
+	   border-style:solid; 
+	   border-color:#E54A4A;
+      }	    	   	      
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<div id="container">
+<div id="logo">
+<img src="logo.jpg" alt="Company Logo" class="logo" >
+</div>
+<div id="banner">
+סמן לטיסה חזרה<input type="radio" id="round_trip" value="round_trip">
+</div>
+<div class="image"><img src="athens.jpg" alt="Company Logo"></div>
+<div class="image" title="!מוסקבה החל מ220$"><img src="moscow.jpg" alt="Company Logo"></div>
+<div class="image"><img src="rome.jpg" alt="Company Logo"></div>
+<div class="image"><img src="washington.jpg" alt="Company Logo"></div>
+<div class="image"><img src="tel_aviv.jpg" alt="Company Logo"></div>
+<div class="image"><img src="madrid.jpg" alt="Company Logo"></div>
+<div class="image"><img src="cairo.jpg" alt="Company Logo"></div>
+<div class="image"><img src="france.jpg" alt="Company Logo"></div>
+<div class="image"><img src="berlin.jpg" alt="Company Logo"></div>
+<div class="image"><img src="london.jpg" alt="Company Logo"></div>
+
+</div>
+
+</body>
+</html>
